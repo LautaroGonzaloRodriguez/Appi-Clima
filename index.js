@@ -34,35 +34,35 @@ window.addEventListener('load', ()=> {
 
                     switch (data.weather[0].main) {
                         case 'Clear':
-                            icono.src = 'day.svg';
+                            icono.src = 'animated/day.svg';
                             console.log('Despejado');
                             break;
                         case 'Clouds':
-                            icono.src = 'cloudy.svg';
+                            icono.src = 'animated/cloudy.svg';
                             console.log('Nublado');
                             break;
                         case 'Atmosphere':
-                            icono.src = 'cloudy-day-1.svg';
+                            icono.src = 'animated/cloudy-day-1.svg';
                             console.log('Atmosferico');
                             break;
                         case 'Snow':
-                            icono.src = 'snowy-5.svg';
+                            icono.src = 'animated/snowy-5.svg';
                             console.log('Nieve');
                             break;
                         case 'Thunderstorm':
-                            icono.src = 'thunder.svg';
+                            icono.src = 'animated/thunder.svg';
                             console.log('Tormenta');
                             break;
                         case 'Rain':
-                            icono.src = 'rainy-6.svg';
+                            icono.src = 'animated/rainy-6.svg';
                             console.log('Lluvia');
                             break;
                         case 'Drizzle':
-                            icono.src = 'rainy-2.svg';
+                            icono.src = 'animated/rainy-2.svg';
                             console.log('Llovizna');
                             break;
                         default:
-                            icono.src = 'cloudy-day-2.svg';
+                            icono.src = 'animated/cloudy-day-2.svg';
                             console.log('Normal');
                     }
                     
