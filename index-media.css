@@ -1,0 +1,9 @@
+@media  (max-width: 760px) {
+
+    #caja1, #caja2, #caja3 {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+
+}
